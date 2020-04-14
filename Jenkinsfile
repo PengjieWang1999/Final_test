@@ -1,10 +1,9 @@
 
-    
-    def RUN = false,
-    def BUILD_NAME = "Latest"
 pipeline {
 
     agent any
+    RUN false,
+    BUILD_NAME "Latest"
 
     
     stages {
