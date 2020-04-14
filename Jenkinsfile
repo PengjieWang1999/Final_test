@@ -29,7 +29,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        stage('Run') {
             when {
               expression {
                 RUN == true
