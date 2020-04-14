@@ -1,9 +1,8 @@
-
+def RUN = false,
+def BUILD_NAME = "Latest"
 pipeline {
 
     agent any
-    script { def RUN = false }
-    script { def BUILD_NAME = "Latest" }
     
 
     
