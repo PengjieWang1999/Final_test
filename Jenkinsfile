@@ -1,4 +1,4 @@
-def RUN = false,
+def RUN = false
 def BUILD_NAME = "Latest"
 pipeline {
 
