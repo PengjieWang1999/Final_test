@@ -36,7 +36,7 @@ pipeline {
               }
             }
             steps {
-                sh 'src/deliver.sh'
+                sh 'deliver.sh'
             }
         }
         stage('Build Results') {
