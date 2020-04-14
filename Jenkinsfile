@@ -1,13 +1,11 @@
-def RUN = true
-def BUILD_NAME = "Latest"
+def RUN = true //Whether to Run the Code
+def BUILD_NAME = "Latest" //Name of the build
 
 /* Pengjie Wang A01061599 20200414 Final */
 
 pipeline {
 
     agent any
-    
-
     
     stages {
         stage('Build') {
