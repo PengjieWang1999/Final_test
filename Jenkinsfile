@@ -32,7 +32,7 @@ pipeline {
         stage('Deliver') {
             when {
               expression {
-                ${RUN} == true
+                RUN == true
               }
             }
             steps {
